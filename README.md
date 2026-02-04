@@ -10,7 +10,7 @@ Note: F5-TTS and ComfyUI both need to be running in the background.
 
 **Speech-to-Text Tips:** Whisper may detect words incorrectly if your microphone volume is too low. You can test audio input quality by recording test audio and comparing it to other audio files for reference.
 
-I use an old Intel computer a RTX 5070 Ti, 16 GB RAM, and 64 GB total RAM. When using this app, it uses up to 35 GB RAM and about 14-15 GB VRAM. That's the total system memory usage including Windows and other applications, not just this app.
+I use an old Intel computer with RTX 5070 Ti 16GB VRAM and 64 GB system RAM. When using this app, it uses up to 35 GB RAM and about 14-15 GB VRAM. That's the total system memory usage including Windows and other applications, not just this app.
 
 This app was created by Claude Haiku. I have no programming experience—the rest of this README was written by Claude.
 
