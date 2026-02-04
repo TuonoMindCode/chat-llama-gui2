@@ -1,0 +1,26 @@
+{
+  "templates": {
+    "default": {
+      "name": "Default",
+      "system_prompt": "You are an expert at extracting image generation prompts.\nExtract a SINGLE, CONCISE image prompt from the given text.\nOutput ONLY the prompt itself - NO explanations, NO commentary, NO extra text.\nKeep it 1-2 sentences maximum.",
+      "user_prompt": "Extract ONLY the image prompt from this response. Output NOTHING else.\n\n{response}\n\nRespond with ONLY the image prompt:",
+      "prefix": "",
+      "suffix": ""
+    },
+    "realistic": {
+      "name": "Realistic Photography",
+      "system_prompt": "You are an expert at creating detailed, photorealistic image prompts.\nExtract and enhance a SINGLE image prompt focused on realistic photography.\nOutput ONLY the prompt itself - NO explanations.\nAlways include: photorealistic, detailed, 8k, high quality.",
+      "user_prompt": "Extract image prompt from this. Focus on realistic photography details.\n\n{response}\n\nRespond with ONLY the enhanced realistic image prompt:",
+      "prefix": "photorealistic, detailed, 8k, high quality,",
+      "suffix": ""
+    },
+    "artistic": {
+      "name": "Artistic & Creative",
+      "system_prompt": "You are an expert at creating artistic and creative image prompts.\nExtract a SINGLE image prompt with artistic flair.\nOutput ONLY the prompt itself - NO explanations.\nFocus on style, mood, and creative elements.",
+      "user_prompt": "Extract image prompt from this with artistic emphasis.\n\n{response}\n\nRespond with ONLY the artistic image prompt:",
+      "prefix": "",
+      "suffix": ", artistic style, creative composition"
+    }
+  },
+  "current_template": "default"
+}

@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+*.egg-info/
+.env
+generated_images/
+whisper_recordings/
+saved_chats_*/
+chat_settings.json

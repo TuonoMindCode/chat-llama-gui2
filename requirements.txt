@@ -1,0 +1,35 @@
+# Core GUI Framework
+PyQt5>=5.15.9
+PyQt5-sip>=12.13.0
+
+# HTTP/API Communication
+requests>=2.31.0
+
+# Image Processing
+Pillow>=10.0.0
+
+# Audio Input/Speech-to-Text
+sounddevice>=0.4.6
+soundfile>=0.12.1
+openai-whisper>=20231117
+
+# Audio Output/Text-to-Speech
+pygame>=2.5.0
+playsound==1.2.2
+
+# Text Processing & Utilities
+pyspellchecker>=0.8.0
+numpy>=1.24.0
+
+# System & Environment
+python-dotenv>=1.0.0
+colorama>=0.4.6
+psutil>=5.9.0
+
+# JSON & Data Processing
+# (json, datetime, pathlib built-in)
+
+# Optional Utilities
+# For optional features like pyttsx3 TTS engine:
+# pyttsx3>=2.90  # Uncomment if you want offline TTS support
+
